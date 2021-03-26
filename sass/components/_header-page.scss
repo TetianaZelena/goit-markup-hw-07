@@ -5,16 +5,10 @@
   padding-top: 30px;
 }
 
-%fontStyleHeader{
-  font-weight: 500; 
-  font-size: 14px; 
-  line-height: 1.14;
-}
-
 header {
   position: relative; 
   width: auto;
-  background-color: #fff; 
+  background-color: var(--white-bg-color); 
   border-bottom: 1px solid #ECECEC; 
 
 } 
@@ -43,7 +37,7 @@ header {
 .header__link{ 
   @include Flex;
   color: var(--title-text-color);
-  letter-spacing: 0.02em;  
+  letter-spacing: $LetterSpacing02;  
   @extend %fontStyleHeader;
   position: relative;
   @extend %paddingBot32Header;
@@ -63,7 +57,7 @@ header {
 .header__link::after {
   @include positionAbsoluteAfter();
   left: 0;
-  bottom: -7px;
+  bottom: -1px;
   width: 100%;
   height: 5px;
   background: var(--accent-color);
@@ -78,13 +72,12 @@ header {
   opacity: 1;
   @extend %transitionTransform ;
   transform: scaleX(1);
-  } 
+} 
   
-.header__link:hover::after,
 .header__link:focus::after {
   opacity: 1;
   transform: scalex(1); 
-  }
+}
   
 /*contact*/
 
@@ -121,7 +114,6 @@ header {
   margin-right: 10px;
   @extend %transitionFill;
   box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   
   &:hover,
   &:focus { 

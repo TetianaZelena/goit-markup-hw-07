@@ -4,8 +4,8 @@
   color: #000; 
   font-family: Raleway, sans-serif; 
   font-weight: var(--font-weight-title);
-  font-size: 26px; 
-  line-height: 1.19;
+  font-size: $FontSize26; 
+  line-height: $LineHeight1-19;
   width: 145px;  
   margin-right: 95px;
   @extend %transitionColor;

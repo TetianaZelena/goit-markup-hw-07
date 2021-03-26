@@ -72,7 +72,7 @@
     margin-bottom: 30px; 
   }
     
-  & :not(:nth-list-child(3n)){
+  & :not(:nth-last-child(3n)){
     margin-right: 30px;
   }
   
@@ -93,10 +93,10 @@
 
 .project__link  h2{ 
   color: var(--title-text-color); 
-  letter-spacing: 0.06em; 
+  letter-spacing: $LetterSpacing06; 
   font-weight: var(--font-weight-title); 
-  font-size: 18px;
-  line-height: 2.00; 
+  font-size: $FontSize18;
+  line-height: $LineHeight2-00; 
   margin-bottom: 4px; 
 }
 
@@ -136,8 +136,8 @@
   overflow: hidden;
   color: var(--whate-laetters); 
   font-weight: var(--font-text);
-  font-size: 18px;
-  line-height: 1.57;
+  font-size: $FontSize18;
+  line-height: $LineHeight1-57;
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px ;
   transform: translateY(100%);

@@ -1,7 +1,9 @@
 :root { 
   --accent-color: #2196F3; 
-  --hero-foot-bg-color: #2F303A; 
+  --hero-foot-bg-color: #2F303A;
+  --font-weight900: 900;  
   --font-weight-title: 700;
+  --font-weight500: 500; 
   --font-text: 400;
   --primare-bg-color: #E5E5E5; 
   --primary-text-color: #757575; 
@@ -13,4 +15,30 @@
   --white-bg-color: #FFFFFF;
   --cursor: pointer;
 }
+
+$FontSize44: 44px;
+$FontSize36: 36px;
+$FontSize26: 26px;
+$FontSize20: 20px;
+$FontSize18: 18px;
+$FontSize16: 16px;
+$FontSize14: 14px;
+$FontSize12: 12px;
+
+$LineHeight1-14: 1.14;
+$LineHeight1-15: 1.15;
+$LineHeight1-16: 1.16;
+$LineHeight1-17: 1.17;
+$LineHeight1-19: 1.19;
+$LineHeight1-25: 1.25;
+$LineHeight1-36: 1.36;
+$LineHeight1-57: 1.57;
+$LineHeight1-71: 1.71;
+$LineHeight2-00: 2.00;
+
+$LetterSpacing01: 0.01em;
+$LetterSpacing02: 0.02em;
+$LetterSpacing03: 0.03em;  
+$LetterSpacing06: 0.06em;  
+
 

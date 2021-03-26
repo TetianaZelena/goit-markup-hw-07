@@ -6,8 +6,8 @@
 .partneirs__title { 
   color: var(--title-text-color); 
   font-weight: var(--font-weight-title); 
-  font-size: 36px; 
-  line-height: 1.16; 
+  font-size: $FontSize36; 
+  line-height: $LineHeight1-16; 
   text-align: center;
   align-items: center;
   min-width: min-content;  

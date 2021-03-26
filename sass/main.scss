@@ -1,6 +1,7 @@
 @import './utils/variables';
-@import './base/stile-base';
-@import './components/body';
+@import'./utils/mixin';
+@import './utils/stile-base';
+@import './base/body';
 @import './components/header-page';
 @import './components/logo';
 @import './components/hero-page';

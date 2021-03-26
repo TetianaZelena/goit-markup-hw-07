@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   color: var(--title-text-color); 
   
-  & :not(:last-child){
+  & :not(:last-of-type){
     margin-right: 30px;
   }
 }
@@ -18,8 +18,8 @@
 .team__title {  
   color: var(--title-text-color); 
   font-weight: var(--font-weight-title); 
-  font-size: 36px; 
-  line-height: 1.16; 
+  font-size: $FontSize36; 
+  line-height: $LineHeight1-16; 
   text-align: center; 
   margin-bottom: 50px; 
 }

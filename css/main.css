@@ -23,7 +23,7 @@
   line-height: 1.14;
 }
 
-.header__link:hover, .header__link:focus, .header__link--current, .header__link::after, .header__link--current::after {
+.header__link, .header__link--current, .header__link::after, .header__link--current::after {
   -webkit-transition: opacity 250ms var(--cubic-function), -webkit-transform 250ms var(--cubic-function);
   transition: opacity 250ms var(--cubic-function), -webkit-transform 250ms var(--cubic-function);
   transition: transform 250ms var(--cubic-function), opacity 250ms var(--cubic-function);
@@ -31,7 +31,7 @@
 }
 
 .header__contact--link, .footer__logo,
-.header__logo, .footer__logo--studio, .partniers__link, .portfolio__button--item {
+.header__logo, .footer__logo--studio, .team__networks--link, .partniers__link, .portfolio__button--item {
   -webkit-transition: color var(--duration-time) var(--cubic-function);
   transition: color var(--duration-time) var(--cubic-function);
 }
@@ -53,7 +53,7 @@
   transition: box-shadow var(--duration-time) var(--cubic-function), -webkit-box-shadow var(--duration-time) var(--cubic-function);
 }
 
-.hero__form--icon, .hero__form--label, .hero__form--coments--text, .hero__form--checkbox, .hero__form--checkbox--icon, .team__networks--link, .partniers__link, .footer__networks, .footer__networks--link, .portfolio__button--item {
+.hero__form--icon, .hero__form--label, .hero__form--coments--text, .hero__form--checkbox, .hero__form--checkbox--icon, .team__networks--link, .footer__networks, .footer__networks--link, .portfolio__button--item {
   -webkit-transition: background-color var(--duration-time) var(--cubic-function);
   transition: background-color var(--duration-time) var(--cubic-function);
 }
@@ -170,11 +170,6 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.header__logo {
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .header__list {
@@ -886,6 +881,7 @@ header {
 .team__networks--link:hover, .team__networks--link:focus {
   fill: #fff;
   background-color: var(--accent-color);
+  color: #fff;
 }
 
 .partneirs__section {
@@ -955,6 +951,7 @@ header {
   -webkit-box-shadow: 0px 4px 4px var(--accent-color);
           box-shadow: 0px 4px 4px var(--accent-color);
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .partniers__link:active {

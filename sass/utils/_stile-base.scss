@@ -17,12 +17,12 @@
 }
 
 %transitionBorder {
-  transition: border var(--duration-time) var(--cubic-function);
+  transition: border  var(--duration-time) var(--cubic-function);
 } 
 
 %transitionBoxShadow {
-  transition: box-shadow var(--duration-time) var(--cubic-function); 
-}
+  transition: box-shadow  var(--duration-time) var(--cubic-function);}
+
 
 %transitionBackgrColor {
   transition: background-color var(--duration-time) var(--cubic-function);}

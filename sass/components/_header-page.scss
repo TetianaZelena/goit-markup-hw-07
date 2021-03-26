@@ -23,8 +23,8 @@ header {
 }
 
 .header__logo{
-  padding-top: 30px;
-  padding-bottom: 30px;
+  // padding-top: 30px;
+  // padding-bottom: 30px;
 }
 
 .header__list{
@@ -41,10 +41,11 @@ header {
   @extend %fontStyleHeader;
   position: relative;
   @extend %paddingBot32Header;
+  @extend %transitionTransform ;
   
   &:hover,
-  &:focus {color: var(--accent-color);
-    @extend %transitionTransform ;}
+  &:focus {color: var(--accent-color); 
+  }
 }
 
 .header__link--current {

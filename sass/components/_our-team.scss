@@ -66,12 +66,17 @@
   cursor: var(--cursor);
   color: #AFB1B8;
   fill: currentColor;
+  @extend%transitionColor;
   @extend %transitionBackgrColor;
   @extend %transitionFill;
+  
   
   &:hover,
   &:focus{
     fill: #fff;
     background-color: var(--accent-color);
+    color: #fff;
+  
   }
 }
+

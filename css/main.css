@@ -613,7 +613,7 @@ header {
   background-size: contain;
   border-color: var(--accent-color);
   background-origin: border-box;
-  background-image: url("../images/Vector2n.svg");
+  background-image: url "images/Vector2n.svg";
   background-position: 50% 50%;
 }
 
